@@ -20,7 +20,7 @@ will not write about `Payfort` operations, what and how to use.
 
 You can install `Laravel Payfort` package to your laravel project via composer command:
 ```
-$ composer require wshurafa/laravel-payfort
+$ composer require coder79/laravel-payfort
 ```
 
 ## Configuration
