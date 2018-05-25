@@ -126,22 +126,3 @@ class PayfortOrdersController extends Controller{
     }
 }
 ```
-
-See [`Payfort` documentation](https://docs.payfort.com/docs/redirection/build/index.html#authorization-purchase-response) for more info.
-
-
-#### Handling Direct Transaction Feedback
-
-Same as handling payfort response except that you have to call `handlePayfortFeedback` instead of `handlePayfortCallback` 
- 
-## Contribution
- Want to improve this package or found a bug ?. Open an issue or do this contribution by yourself and get this honor.
-
-Simply, fork => do you work => make pull request.
-
-Write clear comments and description ;-).
-
-
-## License
- 
-`Laravel Payfort` is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
