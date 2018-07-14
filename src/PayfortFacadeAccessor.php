@@ -4,6 +4,7 @@ namespace LaravelPayfort;
 
 
 use LaravelPayfort\Services\PayfortAPI;
+use LaravelPayfort\Services\PayfortMaintince;
 use LaravelPayfort\Services\PayfortRedirection;
 
 class PayfortFacadeAccessor
@@ -31,4 +32,11 @@ class PayfortFacadeAccessor
         $config = array_merge(config('payfort'), $extra_config);
         return new PayfortRedirection($config);
     }
+
+    public static function capture($extra_config = [])
+    {
+        $config = array_merge(config('payfort'), $extra_config);
+        return new PayfortMaintince($config);
+    }
+
 }
