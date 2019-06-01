@@ -1,8 +1,6 @@
 <?php
 
 namespace LaravelPayfort;
-
-
 use LaravelPayfort\Services\PayfortAPI;
 use LaravelPayfort\Services\PayfortMaintince;
 use LaravelPayfort\Services\PayfortRedirection;

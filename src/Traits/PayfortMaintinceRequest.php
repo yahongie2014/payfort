@@ -5,7 +5,6 @@ namespace LaravelPayfort\Traits;
 
 trait PayfortMaintinceRequest
 {
-
     /**
      * Display payfort payment page to tokenize customer credit card info
      *
